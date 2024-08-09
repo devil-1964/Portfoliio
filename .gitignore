@@ -7,18 +7,78 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Environment variables
+.env
+.env.*.local
+.env.local
+
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+.out/
+build/
+
+# Next.js
+.next/
+out/
+
+# Gatsby files
+.cache/
+public/
+
+# Nuxt.js
+.nuxt/
+nuxt-dist/
+
+# Vue.js
+.vscode/
+.idea/
+.DS_Store
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+*.iml
+*.suo
+*.hproj
+*.cmake
+
+# TypeScript cache
+*.tsbuildinfo
+
+# SASS cache
+.sass-cache/
+
+# Optional npm cache directory
+.npm/
+
+# Optional REPL history
+.node_repl_history
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Dependency directories
+jspm_packages/
