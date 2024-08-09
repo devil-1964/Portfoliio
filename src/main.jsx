@@ -1,9 +1,9 @@
 import React from 'react'
-import Home from "./pages/home"
-import Contact from "./pages/contact"
+import Home from "./pages/home.jsx"
+import Contact from "./pages/contact.jsx"
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom"
-import App from './app'
+import App from './app.jsx'
 import './index.css'
 
 const router = createBrowserRouter([{
