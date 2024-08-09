@@ -14,7 +14,7 @@ Welcome to my portfolio website! 🎨 This site showcases my projects and provid
 
 ![Portfolio Screenshot](./src/assets/portfolio.png)
 
-You can view the live version of the portfolio at [your-deployed-domain.com](https://devanshportfolio-devil-1964s-projects.vercel.app/).
+You can view the live version of the portfolio at [https://devanshportfolio-devil-1964s-projects.vercel.app/](https://devanshportfolio-devil-1964s-projects.vercel.app/).
 
 ## Technologies Used 🛠️
 
