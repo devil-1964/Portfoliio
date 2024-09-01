@@ -38,7 +38,7 @@ const Footer = () => {
             <hr className="border-gray-30"/>
             <div>
                 <p className="text-center text-sm font-medium text-gray-90">
-                    @2023
+                    @2024
                 </p>
             </div>
         </div>
