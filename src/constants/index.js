@@ -1,4 +1,4 @@
-import { htmlIcon,cssIcon,jsIcon,tailIcon,reactIcon,nodeIcon,project01,project02,project03,project04 } from "./assets";
+import { htmlIcon,cssIcon,jsIcon,tailIcon,reactIcon,nodeIcon,project00,project01,project02,project03,project04 } from "./assets";
 
 
 export const navbarLinks = [
@@ -62,27 +62,34 @@ export const services = [
 export const projects = [
     {
         id: 1,
+        link: "https://github.com/devil-1964/my-project",
+        image:project00,
+        title: "Intellichat",
+        tags: ["React","NodeJs","Express","MongoDB"]
+    },
+    {
+        id: 2,
         link: "https://quiz-react-omega.vercel.app/",
         image:project01,
         title: "React Quiz",
         tags: ["React"]
     },
     {
-        id: 2,
+        id: 3,
         link: "https://adopt-me-puce.vercel.app/",
         image:project02,
         title: "AdoptMe",
         tags: ["React"],
     },
     {
-        id: 3,
+        id: 4,
         link: "https://devil-1964.github.io/education_github/",
         image:project03,
         title: "GitHub Education Clone",
         tags: ["HTML", "CSS"],
     },
     {
-        id: 4,
+        id: 5,
         link: "https://devil-1964.github.io/weatherCardProject/",
         image:project04,
         title: "Weather Card",

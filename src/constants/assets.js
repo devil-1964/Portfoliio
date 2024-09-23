@@ -18,6 +18,7 @@ import jsIcon from "../assets/jsIcon.png"
 import tailIcon from "../assets/tailIcon.png"
 import nodeIcon from "../assets/nodeIcon.png"
 import reactIcon from "../assets/reactIcon.png"
+import project00 from "../assets/project00.png"
 import project01 from "../assets/project01.png"
 import project02 from "../assets/project02.png"
 import project03 from "../assets/project03.png"
@@ -44,6 +45,7 @@ export {
     tailIcon,
     nodeIcon,
     reactIcon,
+    project00,
     project01,
     project02,
     project03,
