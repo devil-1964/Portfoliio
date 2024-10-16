@@ -14,10 +14,10 @@ const Hero = () => {
             className="relative flex flex-col items-center gap-y-7 text-center md:w-1/2 md:items-start md:text-start">
             <img src={arrow01} className="absolute right-0 top-0 hidden w-8 -translate-y-full sm:block lg:w-14"/>
                 <div className="flex flex-col gap-y-4 ">
-                    <h1 className="text-h1 font-bold text-gray-90">
+                    <h1 className="text-h1 font-bold text-text">
                         Hi, I&apos;m <span className="text-secondary-50">Devansh</span>
                     </h1>
-                    <h2 className="text-h2 text-gray-90">
+                    <h2 className="text-h2 text-text">
                         I&apos;m a <span className="text-primary-50">
                             <Typewriter cursor
                                 cursorBlinking

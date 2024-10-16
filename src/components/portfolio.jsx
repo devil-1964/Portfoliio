@@ -26,14 +26,14 @@ const Project = React.forwardRef(({ link, title, tags, image }, ref) => {
                     </button>
                 </div>
                 <div className="flex flex-col gap-y-3">
-                    <p className="text-base font-medium text-gray-90 transition-colors group-hover:text-primary-50">
+                    <p className="text-base font-medium text-text transition-colors group-hover:text-primary-50">
                         {title}
                     </p>
                     <div className="flex flex-wrap gap-2">
                         {tags.map((tag, index) => (
                             <span
                                 key={index}
-                                className="flex h-7 items-center justify-center rounded-full border border-solid border-primary-50 px-4 text-sm font-normal text-primary-50"
+                                className="flex h-7 items-center justify-center rounded-full border border-solid border-primary-50 px-4 text-sm font-normal text-primary-50 hover:scale-110 transition duration-200 ease-in-out"
                             >
                                 {tag}
                             </span>

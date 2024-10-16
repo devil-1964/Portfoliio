@@ -13,9 +13,9 @@ const Service = React.forwardRef(({ icon, title, description }, ref) => {
         className="flex flex-col items-start gap-y-4 rounded-xl border border-solid border-gray-30 p-6 transition-colors hover:border-primary-50"
         >
            <div className="flex size=[70px] items-center rounded-full bg-primary-50/5 text-primary-50">
-            <img src={icon} width={40}/>
+            <img src={icon} width={40} className="animate-wiggle"/>
            </div>
-            <p className="text-lg font-semibold text-gray-90">{title}</p>
+            <p className="text-lg font-semibold text-text">{title}</p>
             <p className="text-base font-normal text-gray-50">{description}</p>
 
         </div>

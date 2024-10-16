@@ -8,11 +8,11 @@ import { Link } from "react-router-dom";
 
 
 const MobileNavbar = React.forwardRef(({ setToggleMenu, activeSection }, ref) => {
-    return <motion.div ref={ref} className="fixed right-0 top-0 z-[100000] h-dvh max-w-72 bg-white px-4 py-[50px] shadow-lg"  variants={mobileNavbarVariants}
+    return <motion.div ref={ref} className="fixed right-0 top-0 z-[100000] h-dvh max-w-72 bg-background px-4 py-[50px] shadow-lg"  variants={mobileNavbarVariants}
     initial="hidden"
     animate="visible"
     exit="hidden">
-        <button className="absolute right-0 top-0 m-4 text-gray-90"
+        <button className="absolute right-0 top-0 m-4 text-text"
           
            onClick={() => { setToggleMenu(false) }}>
             <X />

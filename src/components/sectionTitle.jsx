@@ -10,7 +10,7 @@ const SectionTitle = ({ title, subtitle }) => {
         className="flex flex-col gap-y-3 text-center">
         <p className="text-lg font-medium text-primary-50"
         >{title}</p>
-        <h3 className="text-h3 text-gray-90">{subtitle}</h3>
+        <h3 className="text-h3 text-text">{subtitle}</h3>
     </motion.div>;
 };
 
