@@ -69,31 +69,31 @@ export const projects = [
     },
     {
         id: 2,
+        link: "https://github.com/devil-1964/myContactsApp",
+        image:project04,
+        title: "MyContacts App",
+        tags: ["React","NodeJs","Express","MongoDB"]
+    },
+    {
+        id: 3,
         link: "https://quiz-react-omega.vercel.app/",
         image:project01,
         title: "React Quiz",
         tags: ["React"]
     },
     {
-        id: 3,
+        id: 4,
         link: "https://adopt-me-puce.vercel.app/",
         image:project02,
         title: "AdoptMe",
         tags: ["React"],
     },
     {
-        id: 4,
+        id: 5,
         link: "https://devil-1964.github.io/education_github/",
         image:project03,
         title: "GitHub Education Clone",
         tags: ["HTML", "CSS"],
-    },
-    {
-        id: 5,
-        link: "https://devil-1964.github.io/weatherCardProject/",
-        image:project04,
-        title: "Weather Card",
-        tags: ["React"],
     },
 
 ];
