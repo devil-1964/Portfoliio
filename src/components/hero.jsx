@@ -42,7 +42,7 @@ const Hero = () => {
                     <Link
 
                         to={"/contact"}
-                        className="btn-primary w-fit"
+                        className="btn-primary w-fit max-sm:mx-auto"
                     >
                         Contact <Send/>
                     </Link>

@@ -22,17 +22,17 @@ const Header = () => {
     React.useEffect(() => {
         // Apply the theme to the document
         if (theme === 'dark') {
-          document.documentElement.classList.add('dark');
+            document.documentElement.classList.add('dark');
         } else {
-          document.documentElement.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
         }
         // Save the theme preference in local storage
         localStorage.setItem('theme', theme);
-      }, [theme]);
-    
-      const toggleTheme = () => {
+    }, [theme]);
+
+    const toggleTheme = () => {
         setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'));
-      };
+    };
 
     React.useEffect(() => {
         if (resizedX) setToggleMenu(false)
@@ -90,17 +90,17 @@ const Header = () => {
                             ))}
                         </ul>
                     </nav>
-                    <div className="hidden md:inline-flex">
+                    <div className="flex">
 
-                        <Link to={"/contact"} className="btn-primary ">Contact<Send /></Link>
-                        <button onClick={toggleTheme} className="btn btn-primary p-3 ml-2 mr-5">
-                        {theme === 'dark' ? <Moon/> : <Sun/>}
+                        <button onClick={toggleTheme} className="btn btn-primary p-3 ml-3 mr-3 ">
+                            {theme === 'dark' ? <Moon /> : <Sun />}
+                        </button>
+                        <Link to={"/contact"} className="btn-primary hidden md:inline-flex mr-3 ">Contact<Send /></Link>
+                        <button className="cursor-pointer text-text md:hidden mr-3" onClick={() => setToggleMenu(true)}>
+                            <Menu />
                         </button>
                     </div>
 
-                    <button className="cursor-pointer text-text md:hidden" onClick={() => setToggleMenu(true)}>
-                        <Menu />
-                    </button>
                 </div>
             </motion.header>
             <AnimatePresence>

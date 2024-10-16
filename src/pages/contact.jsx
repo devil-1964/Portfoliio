@@ -31,8 +31,8 @@ const Contact = () => {
   };
 
   return (
-    <section className="pb-sec-md pt-sec-lg pl-5">
-      <div className="container relative flex flex-col items-center gap-y-9 mb-4">
+    <section className="pb-sec-md pt-sec-lg ">
+      <div className="container relative flex flex-col items-center gap-y-9 mb-4 ">
         <SectionTitle title="CONTACT" subtitle="Let's Start Talk" />
       </div>
       <div className="grid w-full grid-cols-1 gap-x-12 md:grid-cols-12">
@@ -43,7 +43,7 @@ const Contact = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ margin: "0px 0px -200px 0px", once: true }}
-          className="col-span-1 grid grid-cols-1 gap-4 md:col-span-7 md:grid-cols-2"
+          className="col-span-1 grid grid-cols-1 gap-4 md:col-span-7 md:grid-cols-2 mx-5"
           action=""
         >
           <div className="grid gap-y-2">
@@ -127,14 +127,14 @@ const Contact = () => {
           className="col-span-1 hidden flex-col gap-y-6 md:col-span-3 md:flex"
         >
           <div className="flex flex-col gap-y-2">
-            <p className="text-2xl font-semibold text-text">Further Enquiries :</p>
-            <div className="pl-3">
-              <p className="font-semibold text-text flex gap-1"><Mail className="w-4 hover:animate-spin" />Email me</p>
+            <p className="text-2xl font-semibold text-text border-b-2 border-dashed border-gray-30 w-fit">Further Enquiries :</p>
+            <div className="pl-3  ">
+              <p className="font-semibold text-text flex gap-1 "><Mail className="w-4 hover:animate-spin " />Email me</p>
               <a href="mailto:devanshg.cse@gmail.com" className="text-sm link ml-2 text-gray-50" target="_blank" rel="noopener noreferrer">
                 devanshg.cse@gmail.com
               </a>
             </div>
-            <p className="text-2xl font-semibold text-text">Explore my profile on :</p>
+            <p className="text-2xl font-semibold text-text border-b-2 border-dashed border-gray-30 w-fit">Explore my profile on :</p>
             <div className="pl-3">
               <p className="font-semibold text-text flex gap-1"><Linkedin className="w-4 hover:animate-spin" />LinkedIn </p>
               <a href="https://www.linkedin.com/in/devansh-2aaab1256/" className="text-sm link ml-2 text-gray-50" target="_blank" rel="noopener noreferrer">

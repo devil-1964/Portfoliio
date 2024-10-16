@@ -99,7 +99,7 @@ export const fadeInVariants = {
             duration: 2,
             type: "spring",
             bounce: 0.1,
-            delay: index * 0.2,
+            delay: index * 0.15,
         },
     }),
 };
