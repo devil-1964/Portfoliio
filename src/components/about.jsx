@@ -30,7 +30,7 @@ const About = () => {
                         <p className="text-lg font-normal text-gray-50">I&apos;m a full-stack web developer eager to advance my career by mastering data structures and algorithms. I stay updated with industry trends to continuously improve my skills and tackle new challenges.</p>
                     </div>
                     <div className="md:mt-12">
-                        <a href="/resumeCompletePrivate.pdf" download target="_blank"><button className="btn-primary " >
+                        <a href="/resumeCompletePrivate.pdf" download ><button className="btn-primary " >
                             Resume<Download/>
                         </button></a>
                     </div>
