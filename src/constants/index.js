@@ -1,4 +1,4 @@
-import { htmlIcon,cssIcon,jsIcon,tailIcon,reactIcon,nodeIcon,project00,project01,project02,project03,project04 } from "./assets";
+import { htmlIcon,cssIcon,jsIcon,tailIcon,reactIcon,nodeIcon,projecttpo,project00,project01,project02,project03,project04 } from "./assets";
 
 
 export const navbarLinks = [
@@ -62,34 +62,41 @@ export const services = [
 export const projects = [
     {
         id: 1,
+        link: "https://github.com/devil-1964/Project2024",
+        image:projecttpo,
+        title: "Training & Placement Portal",
+        tags: ["React","NodeJs","Express","MongoDB"]
+    },
+    {
+        id: 2,
         link: "https://github.com/devil-1964/my-project",
         image:project00,
         title: "Intellichat",
         tags: ["React","NodeJs","Express","MongoDB"]
     },
     {
-        id: 2,
+        id: 3,
         link: "https://github.com/devil-1964/myContactsApp",
         image:project04,
         title: "MyContacts App",
         tags: ["React","NodeJs","Express","MongoDB"]
     },
     {
-        id: 3,
+        id: 4,
         link: "https://quiz-react-omega.vercel.app/",
         image:project01,
         title: "React Quiz",
         tags: ["React"]
     },
     {
-        id: 4,
+        id: 5,
         link: "https://adopt-me-puce.vercel.app/",
         image:project02,
         title: "AdoptMe",
         tags: ["React"],
     },
     {
-        id: 5,
+        id: 6,
         link: "https://devil-1964.github.io/education_github/",
         image:project03,
         title: "GitHub Education Clone",

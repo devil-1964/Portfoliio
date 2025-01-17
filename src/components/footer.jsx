@@ -25,7 +25,7 @@ const Footer = () => {
                         </a>
                     </li>
                     <li className="btn-primary size-fit p-2 animate-wiggle">
-                        <a href="www.x.com/Devansh1Devil" className="btn-primary size-fit p-2">
+                        <a href="https://x.com/Devansh1Devil" className="btn-primary size-fit p-2">
                             <TwitterIcon/>
                         </a>
                     </li>
